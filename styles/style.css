@@ -47,7 +47,7 @@ ul li a{
   color: white;
   font-weight: bold;
   padding: 13px 26px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 /* banner styles */
@@ -57,22 +57,29 @@ ul li a{
   font-size: 45px;
   font-weight: 800;
   line-height: 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .banner-title{
   color: #181818;
-  font-size: 85px;
+  font-size: 45px;
   font-weight: bold;
-  margin-bottom: ;
+  margin-bottom: 10px ;
+}
+h6{
+  font-size: 30px;
+  margin: 10px 0px;
+
 }
 
-.banner-profile-pc{
+.banner-profile-pic{
   width: 584px;
   height: 676px;
 }
 
 .banner-description{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
 }
 
@@ -85,6 +92,7 @@ ul li a{
 .banner-content{
   width: 585px;
   height: 262px;
+  align-items: center;
 }
 
 /* main styles */
