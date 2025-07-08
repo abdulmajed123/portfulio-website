@@ -251,6 +251,10 @@ footer{
   font-size: 18px;
 }
 
+.img a{
+  margin-right: 10px;
+}
+
 
 footer input[type="text"], footer input[type="email"], footer textarea{
   display: block;
