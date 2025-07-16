@@ -277,15 +277,26 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 
 
 @media screen and (max-width: 576px){
-  .skills-container, .resume-container, footer{
+  .skills-container, footer{
     flex-direction: column;
   }
+  .resume-container{
+    flex-direction: column;
+    padding: 10px;
+  }
 
-  footer{
+
+
+
+  footer, .about{
     padding: 20px;
   }
   .footer-column{
     width: 100%;
+  }
+
+  .about-items{
+    flex-direction: column;
   }
  
 } 
